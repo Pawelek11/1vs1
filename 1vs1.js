@@ -55,12 +55,6 @@ function pobierzIDaneIZewnetrznegoZrodla() {
             data.sort((a, b) => b.wins - a.wins);
 
             // Wyświetlanie posortowanych danych
-
-            //Wysłanie powiadomienia
-                        sendNotification('Kolejna wygrana', {
-                        body: 'Gracz ${player.name} wygrał ${winDifference} meczy',
-                        tag: 'example notify'
-                        });
             const outputDiv = document.getElementById("output");
             outputDiv.innerHTML = "";                                   // Wyczyść poprzednie dane
             outputDiv.textContent = new Date().toLocaleTimeString();    //Wyświetlanie aktualnego czasu
