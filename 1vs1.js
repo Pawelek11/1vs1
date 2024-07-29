@@ -34,7 +34,7 @@ function pobierzIDaneIZewnetrznegoZrodla() {
                         });
                         //Wyświetlanie zaktualizowanego gracza              
                         const updateInfo = document.createElement("p");                      
-                        updateInfo.textContent = `${new Date().toLocaleTimeString()}, ${ existingPlayer.name }, Wygrane: ${ existingPlayer.wins } ` //, Nowe wygrane: +${winDifference}, ${additionalWinsText}`;
+                        updateInfo.textContent = `${new Date().toLocaleTimeString()} ${player.name }, Wygrane: ${player.wins }` //, Nowe wygrane: +${winDifference}, ${additionalWinsText}`;
                         output1Div.appendChild(updateInfo);
                     }
 
