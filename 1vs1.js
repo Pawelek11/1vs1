@@ -34,7 +34,7 @@ function pobierzIDaneIZewnetrznegoZrodla() {
                         });
                         //Wyświetlanie zaktualizowanego gracza              
                         const updateInfo = document.createElement("p");                      
-                        updateInfo.textContent = `${new Date().toLocaleTimeString()} ${player.name }, Wygrane: ${player.wins }` //, Nowe wygrane: +${winDifference}, ${additionalWinsText}`;
+                        updateInfo.textContent = `${new Date().toLocaleString()} ${player.name }, Wygrane: ${player.wins }` //, Nowe wygrane: +${winDifference}, ${additionalWinsText}`;
                         output1Div.appendChild(updateInfo);
                     }
 
@@ -48,7 +48,7 @@ function pobierzIDaneIZewnetrznegoZrodla() {
 
                     //Wyświetlanie dodanego gracza
                     const addInfo = document.createElement("p");
-                    addInfo.textContent = `N: ${new Date().toLocaleTimeString()}, ${player.name}, Wygrane: ${player.wins}`;
+                    addInfo.textContent = `N: ${new Date().toLocaleString()}, ${player.name}, Wygrane: ${player.wins}`;
                     output1Div.appendChild(addInfo);
                 }
             });
