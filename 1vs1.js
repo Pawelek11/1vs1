@@ -61,7 +61,7 @@ function pobierzIDaneIZewnetrznegoZrodla() {
             data.forEach((player, index) => {
                 const line = document.createElement("p");
                 const additionalWinsText = player.additionalWins
-                    .map(win => `(${new Date(win[0]*1000).toLocaleTimeString()}, ${win[1]} +${win[2]})`)
+                    .map(win => `(${new Date(win[0]*1000).toLocaleTimeString()}, ${win[1]},  +${win[2]})`)
                     .join(",  ");
                 line.textContent = `${index + 1}. ${player.name}: ${player.wins } ${additionalWinsText}`;
                 outputDiv.appendChild(line);
