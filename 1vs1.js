@@ -176,7 +176,7 @@ const data = [
     { name: "Mueran Perras", wins: 164, additionalWins: [[1721454000, 0, 0]] },
     { name: "Adeodatus", wins: 21, additionalWins: [[1721454000, 0, 0]] },
     { name: "jalc", wins: 16, additionalWins: [[1721454000, 0, 0]] },
-    { name: "Canserbero", wins: 4, additionalWins: [[1721454000, 0, 0]],[1722414443,960443,2]] },
+    { name: "Canserbero", wins: 4, additionalWins: [[1721454000, 0, 0],[1722414443,960443,2]] },
     { name: "Roxy 7", wins: 9, additionalWins: [[1721454000, 0, 0]] },
     { name: "Resovia", wins: 42, additionalWins: [[1721454000, 0, 0]] },
     { name: "Sonic YT", wins: 15, additionalWins: [[1721454000, 0, 0]] },
